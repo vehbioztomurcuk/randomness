@@ -1,33 +1,118 @@
-/* src/App.css */
+/* Add this to your existing CSS or App.css file */
 
 .App {
   text-align: left;
   margin-top: 150px; /* Adjust the margin-top to position the content vertically */
   margin-left: 150px; /* Adjust the margin-top to position the content vertically */
-}
-
-button {
-  font-size: 1rem;
-  padding: 10px 20px;
-  margin-top: 20px; /* Adjust the margin-top to position the button vertically */
-}
-
-iframe {
-margin-bottom: 100px;
-  /* src/App.css */
-
-
+  display: flex;
 }
 
 .left-container {
   flex: 1;
-  max-width: 400px; /* Adjust the max-width as needed */
+  padding: 20px;
+}
+
+.line {
+  width: 1px;
+  background-color: #000; /* Adjust the color as needed */
 }
 
 .right-container {
   flex: 1;
-  margin-left: 0px; /* Adjust the margin-left as needed */
-  margin-bottom: 400px;
+  padding: 20px;
+  text-align: center; /* Align the video in the center */
 }
 
+.button-container {
+  position: absolute;
+  top: 201px; /* Adjust the top value as needed */
+  right: 1150px; /* Adjust the right value as needed */
+}
 
+/* Add this to your existing CSS or App.css file */
+
+.text-list {
+  list-style: none;
+  padding: 0;
+}
+
+.text-list li {
+  margin: 8px 0;
+  font-size: 16px;
+  /* Add any additional styling as needed */
+}
+
+/* Add this to your existing CSS or App.css file */
+
+.random-edit-btn {
+  /* Styles for the "random edit" button */
+}
+
+.show-text-list-btn {
+  position: relative;
+  left: 10px;
+  /* Styles for the "show text list" button */
+}
+
+/* Add this to your existing CSS or App.css file */
+
+.text-list {
+  list-style: none;
+  padding: 0;
+}
+
+.text-list li {
+  margin: 8px 0;
+  font-size: 16px;
+  /* Add any additional styling as needed */
+}
+
+/* Add this to your existing CSS or App.css file */
+
+/* Styles for the "random edit" button */
+.random-edit-btn {
+  /* Styles for the "random edit" button */
+}
+
+/* Styles for the "show text list" buttons */
+.show-text-list-btn {
+  /* Common styles for all "show text list" buttons */
+}
+
+/* Additional styles for each "show text list" button */
+.show-text-list1 {
+  position: relative;
+  left: 10px;
+
+  
+  /* Styles for the first "show text list" button */
+}
+
+.show-text-list2 {
+  position: relative;
+  left: 20px;
+
+  /* Styles for the second "show text list" button */
+
+}
+
+.show-text-list3 {
+
+  /* Styles for the third "show text list" button */
+  position: relative;
+  left: 30px;
+
+
+}
+
+/* Styles for the text list */
+.text-list {
+  list-style: none;
+  padding: 0;
+}
+
+.text-list li {
+  margin: 8px 0;
+  font-size: 16px;
+  /* Add any additional styling as needed */
+}
