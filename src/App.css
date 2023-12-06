@@ -1,0 +1,33 @@
+/* src/App.css */
+
+.App {
+  text-align: left;
+  margin-top: 150px; /* Adjust the margin-top to position the content vertically */
+  margin-left: 150px; /* Adjust the margin-top to position the content vertically */
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin-top: 20px; /* Adjust the margin-top to position the button vertically */
+}
+
+iframe {
+margin-bottom: 100px;
+  /* src/App.css */
+
+
+}
+
+.left-container {
+  flex: 1;
+  max-width: 400px; /* Adjust the max-width as needed */
+}
+
+.right-container {
+  flex: 1;
+  margin-left: 0px; /* Adjust the margin-left as needed */
+  margin-bottom: 400px;
+}
+
+
